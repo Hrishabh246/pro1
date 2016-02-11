@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title> J.S. 1 </title>
+
+</head>
+
+<body>
+
+<h1>what can javascript do?</h1>
+
+<p id="demo">This is going to change if you </p>
+<button type="button" onclick="getElementById('demo').innerHTML='welcome to javascript'">click me!</button>
+<h1>DOing same thing using a JS function</h1>
+<p id="demo2">this is going to change (using JS function) if you, </p>
+<button onclick="function1()">click me buddy</button>
+
+<script>
+function function1(){
+document.getElementById("demo2").innerHTML="magic of JS";
+}
+</script>
+</body>
+
+</html>
